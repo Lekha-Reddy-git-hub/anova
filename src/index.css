@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1e40af;
+  --color-primary-hover: #1e3a8a;
+  --color-secondary: #0d9488;
+  --color-secondary-hover: #0f766e;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-[#0A0A0C] dark:text-white antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-[#0F0F12] rounded-xl border border-gray-200 dark:border-[#1F1F23] transition-shadow;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-md;
+  }
+  
+  .input-field {
+    @apply w-full px-3 py-2 text-sm bg-white dark:bg-[#1F1F23] border border-gray-200 dark:border-[#2A2A2E] rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white placeholder-gray-400;
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#1e40af] hover:bg-[#1e3a8a] rounded-lg transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-[#1F1F23] border border-gray-200 dark:border-[#2A2A2E] hover:bg-gray-50 dark:hover:bg-[#2A2A2E] rounded-lg transition-colors;
+  }
+
+  .btn-teal {
+    @apply inline-flex items-center justify-center px-4 py-2.5 text-sm font-medium text-white bg-[#0d9488] hover:bg-[#0f766e] rounded-lg transition-colors;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #374151;
+}
