@@ -10,7 +10,7 @@
   <a href="https://github.com/Lekha-Reddy-git-hub/anova/stargazers"><img src="https://img.shields.io/github/stars/Lekha-Reddy-git-hub/anova?style=for-the-badge&logo=github&labelColor=0f172a&color=fbbf24" alt="Stars" /></a>
   <img src="https://img.shields.io/badge/React%20%C2%B7%20TypeScript%20%C2%B7%20Vite-111827?style=for-the-badge&labelColor=0f172a" alt="Tech stack" />
   <img src="https://img.shields.io/badge/Local--only-your%20numbers%20stay%20put-10a37f?style=for-the-badge&labelColor=0f172a" alt="Local only" />
-  <img src="https://img.shields.io/badge/Price-Volume-Mix?style=for-the-badge&labelColor=0f172a&color=10a37f&label=Price%C2%B7Volume%C2%B7Mix" alt="PVM" />
+  <img src="https://img.shields.io/badge/Method-Price%20%C2%B7%20Volume%20%C2%B7%20Mix-10a37f?style=for-the-badge&labelColor=0f172a" alt="Price Volume Mix" />
 </p>
 
 <p align="center"><sub><a href="#what-it-does">What it does</a> · <a href="#price--volume--mix">PVM</a> · <a href="#privacy">Privacy</a> · <a href="#run-it">Run</a> · <a href="#faq">FAQ</a></sub></p>
